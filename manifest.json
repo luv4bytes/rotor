@@ -1,0 +1,55 @@
+{
+    "manifest_version": 2,
+    "author": "luv4bytes",
+    "name": "__MSG_extensionName__",
+    "version": "1.4",
+    "description": "__MSG_extensionDescription__",
+    "homepage_url": "https://github.com/luv4bytes/rotor",
+    "default_locale": "en",
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "rotor@luv4bytes.com"
+        }
+    },
+    "permissions": [
+        "contextMenus"
+    ],
+    "background": {
+        "scripts": [
+            "src/js/background.js"
+        ]
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "http://*/*",
+                "https://*/*"
+            ],
+            "js": [
+                "src/js/engine.js"
+            ]
+        }
+    ],
+    "icons": {
+        "48": "icons/format-rotate-90_dark.png"
+    },
+    "page_action": {
+        "browser_style": true,
+        "default_icon": "icons/format-rotate-90_dark.png",
+        "default_title": "__MSG_defaultPageActionTitle__",
+        "show_matches": [
+            "http://*/*.png",
+            "https://*/*.png",
+            "file://*/*.png",
+            "http://*/*.jpg",
+            "https://*/*.jpg",
+            "file://*/*.jpg",
+            "http://*/*.jpeg",
+            "https://*/*.jpeg",
+            "file://*/*.jpeg",
+            "http://*/*.gif",
+            "https://*/*.gif",
+            "file://*/*.gif"
+        ]
+    }
+}

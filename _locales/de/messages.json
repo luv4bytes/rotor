@@ -1,0 +1,66 @@
+{
+    "extensionName": {
+        "message": "rotor",
+        "description": "Name der Erweiterung."
+    },
+    "extensionDescription": {
+        "message": "Ermöglicht Spiegeln, Rotieren, Vergrößern etc. von Bildern.",
+        "description": "Beschreibung der Erweiterung."
+    },
+    "defaultPageActionTitle": {
+        "message": "Das angezeigte Bild um 90 Grad rotieren.",
+        "description": "Beschreibung der Page Action."
+    },
+    "contextMainMenu": {
+        "message": "Rotor",
+        "description": "Beschreibung des Kontextmenüeintrags."
+    },
+    "contextRotateMenuItem": {
+        "message": "Rotieren",
+        "description": "Beschreibung des Kontextmenüeintrags."
+    },
+    "contextRotate90DegreeMenuItem": {
+        "message": "90 Grad",
+        "description": "Beschreibung des Kontextmenüeintrags."
+    },
+    "contextRotate180DegreeMenuItem": {
+        "message": "180 Grad",
+        "description": "Beschreibung des Kontextmenüeintrags."
+    },
+    "contextRotate270DegreeMenuItem": {
+        "message": "270 Grad",
+        "description": "Beschreibung des Kontextmenüeintrags."
+    },
+    "contextFlipMenuItem": {
+        "message": "Spiegeln",
+        "description": "Beschreibung des Kontextmenüeintrags."
+    },
+    "contextFlipHorizontallyMenuItem": {
+        "message": "Horizontal",
+        "description": "Beschreibung des Kontextmenüeintrags."
+    },
+    "contextFlipVerticallyMenuItem": {
+        "message": "Vertikal",
+        "description": "Beschreibung des Kontextmenüeintrags."
+    },
+    "contextZoomMenuItem": {
+        "message": "Vergrößern",
+        "description": "Beschreibung des Kontextmenüeintrags."
+    },
+    "contextZoom100MenuItem": {
+        "message": "100%",
+        "description": "Beschreibung des Kontextmenüeintrags."
+    },
+    "contextZoom150MenuItem": {
+        "message": "150%",
+        "description": "Beschreibung des Kontextmenüeintrags."
+    },
+    "contextZoom200MenuItem": {
+        "message": "200%",
+        "description": "Beschreibung des Kontextmenüeintrags."
+    },
+    "contextZoom300MenuItem": {
+        "message": "300%",
+        "description": "Beschreibung des Kontextmenüeintrags."
+    }
+}
