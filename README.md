@@ -1,5 +1,3 @@
-[![CodeQL](https://github.com/luv4bytes/rotor/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/luv4bytes/rotor/actions/workflows/codeql-analysis.yml)
-
 # rotor
 Firefox extension for manipulating image positioning.   
 With this extension you can rotate, zoom, flip etc. images.
